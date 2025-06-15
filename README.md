@@ -45,3 +45,16 @@ Libro de Excel con varias hojas:
   Cada área tiene su propia matriz, vinculada a la hoja principal `MQ-6201-F06`. Estas hojas se actualizan automáticamente con cualquier cambio en la matriz principal.
 
 
+## 📌 Tecnologías utilizadas
+
+- **Jupyter Notebook** – Para el procesamiento y análisis de datos, utilizando:
+  - `pandas`, `numpy`, `glob`, `os`
+- **Power Query en Excel** – Para vincular hojas y actualizar automáticamente los reportes.
+- **Microsoft Excel** – Para la visualización final del plan anual de capacitación.
+- **GitHub** – Para control de versiones y documentación del proyecto.
+
+## 🚀 Autora  
+**María Belén Flores Landaverde** – Matemática Aplicada  
+Apasionada por el análisis de datos y la automatización de procesos administrativos.
+
+
