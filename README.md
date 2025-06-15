@@ -18,3 +18,20 @@ El repositorio está dividido en tres partes principales:
    - Identifica qué trabajador (por número de nómina) necesita reforzar qué tema.
    - Llena automáticamente la Matriz de Requerimientos y Plan Anual de Capacitación
     (`DNC.xlsx`, hoja `MQ-6201-F06`), donde las columnas son los temas y los renglones las nóminas de los trabajadores. Se marca con una "x" si el trabajador requiere ese curso.
+
+3. **DNC.xlsx**
+Libro de Excel con varias hojas:
+- **Matriz de Requerimientos y Plan Anual de Capacitación** (`MQ-6201-F06`)  
+  Se actualiza automáticamente. Se marca con **"x"** cuando un trabajador requiere un curso. Si la "x" se cambia por **"ok"**, se indica que el curso fue cubierto y el avance se refleja en todo el sistema.
+
+- **Reporte de avance** (`Reporte`)  
+  - Muestra una tabla con:  
+    - Total de personas que necesitan cada curso.  
+    - Total de personas que lo han tomado.  
+    - Porcentaje de avance.  
+  - Incluye una gráfica de barras que se actualiza automáticamente al marcar capacitaciones como completadas.
+
+- **Hojas por área**  
+  Cada área tiene su propia matriz, vinculada a la hoja principal `MQ-6201-F06`. Estas hojas se actualizan automáticamente con cualquier cambio en la matriz principal.
+
+
