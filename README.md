@@ -12,9 +12,9 @@ El repositorio está dividido en tres partes principales:
    - Estandariza y convierte los archivos a formato `.csv` para facilitar su manejo posterior.
     
 2. **MatrizDNC.ipynb**
-- Lee los archivos del DNC ya procesados por el archivo anterior.
-- Reemplaza los temas por una clave que agrupa temas similares (por ejemplo, “CTPAT & OEA” y “Certificación CTPAT / OEA” se agrupan como “CTPAT & OEA”).
-- Filtra únicamente los temas cuya modalidad es Curso o Taller.
-- Identifica qué trabajador (por número de nómina) necesita reforzar qué tema.
-- Llena automáticamente la Matriz de Requerimientos y Plan Anual de Capacitación
- (`DNC.xlsx`, hoja `MQ-6201-F06`), donde las columnas son los temas y los renglones las nóminas de los trabajadores. Se marca con una "x" si el trabajador requiere ese curso.
+   - Lee los archivos del DNC ya procesados por el archivo anterior.
+   - Reemplaza los temas por una clave que agrupa temas similares (por ejemplo, “CTPAT & OEA” y “Certificación CTPAT / OEA” se agrupan como “CTPAT & OEA”).
+   - Filtra únicamente los temas cuya modalidad es Curso o Taller.
+   - Identifica qué trabajador (por número de nómina) necesita reforzar qué tema.
+   - Llena automáticamente la Matriz de Requerimientos y Plan Anual de Capacitación
+    (`DNC.xlsx`, hoja `MQ-6201-F06`), donde las columnas son los temas y los renglones las nóminas de los trabajadores. Se marca con una "x" si el trabajador requiere ese curso.
