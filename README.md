@@ -47,7 +47,7 @@ Libro de Excel con varias hojas:
 
 ## 📌 Tecnologías utilizadas
 
-- **Jupyter Notebook** – Para el procesamiento y análisis de datos, utilizando:
+- **Jupyter Notebook (python)** – Para el procesamiento y análisis de datos, utilizando:
   - `pandas`, `numpy`, `glob`, `os`
 - **Power Query en Excel** – Para vincular hojas y actualizar automáticamente los reportes.
 - **Microsoft Excel** – Para la visualización final del plan anual de capacitación.
