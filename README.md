@@ -16,7 +16,7 @@ Este sistema permite:
 
 El repositorio está dividido en tres partes principales:
 
-1. **Limpieza_del_DNC.ipynb**  
+1. **Limpiar_archivos_del_DNC.ipynb**  
    - Lee aproximadamente 55 archivos del Diagnóstico de Necesidades de Capacitación (DNC).  
    - Limpia encabezados y elimina columnas innecesarias.  
    - Estandariza y convierte los archivos a formato `.csv` para facilitar su manejo posterior.
